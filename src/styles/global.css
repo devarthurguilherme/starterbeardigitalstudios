@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*Loader*/
+.loader {
+    width: 10px;
+    height: 10px;
+    margin: 40px auto;
+    border-radius: 50%;
+    background-color: white;
+}
+/*End of the Loader*/
