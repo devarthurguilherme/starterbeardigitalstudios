@@ -7,8 +7,8 @@ const ComingSoon = () => {
         <div className="lg:hidden">
             <motion.h1 
                 className="text-5xl md:text-9xl font-bold uppercase"
-                initial={{x: -1000, opacity: 0}}
-                animate={{x: 0, opacity: 1}}
+                initial={{opacity: 0}}
+                animate={{opacity: 1}}
                 transition={{
                     duration: "3",
                     delay: "1.5"
@@ -19,8 +19,8 @@ const ComingSoon = () => {
             <div>
                 <motion.h1 
                     className="text-5xl md:text-9xl font-bold uppercase"
-                    initial={{x: -1000}}
-                    animate={{x: 0}}
+                    initial={{opacity: 0}}
+                    animate={{opacity: 1}}
                     transition={{
                     duration: "3",
                     delay: "1.5"
@@ -28,7 +28,7 @@ const ComingSoon = () => {
                 >
                     Soon
                 </motion.h1>
-                <motion.div 
+                {/*<motion.div 
                     className="border-t border-4 md:border-8 border-White"
                     initial={{x: -1000}}
                     animate={{x: 0}}
@@ -36,14 +36,22 @@ const ComingSoon = () => {
                         duration: "3",
                         delay: "1.7"
                     }}  
-                ></motion.div>
+                ></motion.div>*/}
             </div>
         </div>
         <div className="hidden lg:block">
-            <motion.h1 className="text-5xl md:text-9xl font-bold uppercase">
+            <motion.h1 
+                className="text-5xl md:text-9xl font-bold uppercase"
+                initial={{opacity: 0}}
+                animate={{opacity: 1}}
+                transition={{
+                duration: "3",
+                delay: "1.5"
+            }} 
+            >
                 Coming Soon
             </motion.h1>
-            <motion.div className="border-t border-4 md:border-8 border-White"></motion.div>
+            {/*<motion.div className="border-t border-4 md:border-8 border-White"></motion.div>*/}
         </div>
     </div>
     

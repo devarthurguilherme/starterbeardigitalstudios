@@ -3,7 +3,6 @@ import ComingSoon from "./components/ComingSoon";
 import LogoBDS from "./components/LogoBDS";
 import StayTuned from "./components/StayTuned";
 import Loader from "./components/Loader";
-import MyComponent from "./components/MyComponent";
 
 
 function App() {
@@ -18,12 +17,14 @@ function App() {
             <div className="mb-4">
               <ComingSoon/>
             </div>
+           {/*  
             <div className="">
               <StayTuned/>
             </div>
+            
             <div>
               <Loader />
-            </div>
+            </div>*/}
           </div>
         </div>
       </main>

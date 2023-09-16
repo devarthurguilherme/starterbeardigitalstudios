@@ -32,10 +32,10 @@ const LogoBDS = () => {
               className="border-t border-4 md:border-8 border-White"
                 initial={{x: -1000}}
                 animate={{x: 0}}
-                  transition={{
-                    duration: "3",
-                    delay: "1.7"
-                  }}    
+                transition={{
+                duration: "3",
+                delay: "1.7"
+                }}    
             ></motion.div>
           </div>
         </div>
