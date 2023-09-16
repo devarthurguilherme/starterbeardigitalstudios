@@ -43,7 +43,8 @@ const ComingSoon = () => {
             <motion.h1 className="text-5xl md:text-9xl font-bold uppercase">
                 Coming Soon
             </motion.h1>
-            <motion.div className="border-t border-4 md:border-8 border-White"></motion.div>
+            {/* <motion.div className="border-t border-4 md:border-8 border-White"></motion.div>*/}
+
         </div>
     </div>
     
