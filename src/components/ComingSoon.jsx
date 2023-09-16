@@ -45,6 +45,7 @@ const ComingSoon = () => {
             </motion.h1>
             {/* <motion.div className="border-t border-4 md:border-8 border-White"></motion.div>*/}
             {/* Test Here */}
+            {/* Test 2Here */}
         </div>
     </div>
     
