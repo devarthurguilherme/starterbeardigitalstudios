@@ -3,6 +3,9 @@ import ComingSoon from "./components/ComingSoon";
 import LogoBDS from "./components/LogoBDS";
 import StayTuned from "./components/StayTuned";
 import Loader from "./components/Loader";
+import Countdown1 from "./components/Countdown1";
+import Countdown2 from "./components/Countdown2";
+import { MyTestCountdown } from "./components/MyTestCountdown";
 
 
 function App() {
@@ -16,6 +19,15 @@ function App() {
             </div>
             <div className="mb-4">
               <ComingSoon/>
+            </div>
+            <div>
+            <Countdown1 />
+            </div>
+            <div>
+              <Countdown2 duration={2 * 24 * 60 * 60 * 1000}/>
+            </div>
+            <div>
+              <MyTestCountdown />
             </div>
            {/*  
             <div className="">
