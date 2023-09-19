@@ -4,7 +4,7 @@ import Logo from "../img/Logo.png"
 const LogoBDS = () => {
   return (
     <motion.div 
-    className="max-w-md mx-auto p-2 bg-Black"
+      className="max-w-md mx-auto p-2 bg-Black"
       initial={{opacity: 0}}
       animate={{opacity: 1}}
       transition={{
@@ -13,28 +13,52 @@ const LogoBDS = () => {
       }}
     >
       <div className="flex justify-center flex-col">
-        <div className="flex justify-end">
+        <motion.div 
+          className="flex justify-end"
+          initial={{opacity: 0}}
+          animate={{opacity: 1}}
+          transition={{
+          duration: "3",
+          delay: "1.2"
+      }} 
+        >
           <img
             src={Logo}
             alt="Logo"
             className="w-[8rem] md:w-[15rem] flex-end"
           />
-        </div>
+        </motion.div>
         <div className="flex flex-col">
-          <h1 className="my-1 text-right whitespace-nowrap text-5xl md:text-7xl font-semibold">
+          <motion.h1 
+            className="my-1 text-right whitespace-nowrap text-5xl md:text-7xl font-semibold"
+            initial={{opacity: 0}}
+            animate={{opacity: 1}}
+            transition={{
+              duration: "3",
+              delay: "1.4"
+            }}  
+          >
             Bear Digital
-          </h1>
+          </motion.h1>
           <div className="text w-2/5 md:w-3/5 self-end bg-Black">
-            <h1 className="text-left text-2xl md:text-4xl py-2 font-semibold">
+            <motion.h1 
+              className="text-left text-2xl md:text-4xl py-2 font-semibold"
+              initial={{opacity: 0}}
+              animate={{opacity: 1}}
+              transition={{
+                duration: "3",
+                delay: "1.6"
+              }}
+            >
               studios
-            </h1>
+            </motion.h1>
             <motion.div 
               className="border-t border-4 md:border-8 border-White"
-                initial={{x: -1000}}
+                initial={{x: -2000}}
                 animate={{x: 0}}
                 transition={{
                 duration: "3",
-                delay: "1.7"
+                delay: "1"
                 }}    
             ></motion.div>
           </div>

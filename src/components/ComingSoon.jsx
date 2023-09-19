@@ -1,12 +1,12 @@
-import { motion } from "framer-motion"
-import React from 'react'
+import { motion } from "framer-motion";
 
 const ComingSoon = () => {
   return (
     <div className="text-center">
-        <div className="lg:hidden">
+        {/*
+            <div className="lg:hidden">
             <motion.h1 
-                className="text-5xl md:text-9xl font-bold uppercase"
+                className="text-xl md:text-9xl font-bold uppercase"
                 initial={{x: -1000, opacity: 0}}
                 animate={{x: 0, opacity: 1}}
                 transition={{
@@ -18,7 +18,7 @@ const ComingSoon = () => {
             </motion.h1>
             <div>
                 <motion.h1 
-                    className="text-5xl md:text-9xl font-bold uppercase"
+                    className="text-xl md:text-9xl font-bold uppercase"
                     initial={{x: -1000}}
                     animate={{x: 0}}
                     transition={{
@@ -27,7 +27,7 @@ const ComingSoon = () => {
                 }}   
                 >
                     Soon
-                {/**/}</motion.h1>
+                </motion.h1>
                 <motion.div 
                     className="border-t border-4 md:border-8 border-White"
                     initial={{x: -1000}}
@@ -39,12 +39,19 @@ const ComingSoon = () => {
                 ></motion.div>
             </div>
         </div>
-        <div className="hidden lg:block">
-            <motion.h1 className="text-5xl md:text-9xl font-bold uppercase">
+        */}
+        
+        <div className="">
+            <motion.h1 
+                className="text-xl md:text-4xl lg:text-6xl font-bold uppercase"
+                initial={{x: -2000, opacity: 0}}
+                animate={{x: 0, opacity: 1}}
+                transition={{
+                    duration: "3",
+                    delay: "1"
+                }}>
                 Coming Soon
             </motion.h1>
-            {/* <motion.div className="border-t border-4 md:border-8 border-White"></motion.div>*/}
-            {/* Last Test */}
         </div>
     </div>
     
