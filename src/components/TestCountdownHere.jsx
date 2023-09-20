@@ -51,8 +51,8 @@ const TestCountdownHere = () => {
                 delay: "2"
               }}
           >
-            <p className="text-black p-3 md:p-4 lg:p-6 mx-2 lg:mx-2 text-2xl md:text-4xl lg:text-6xl rounded-md mb-2">{months}</p>
-            <p className="text-black text-xs lg:text-xl">Month(s)</p>
+            <p className="text-white p-3 md:p-4 lg:p-6 mx-2 lg:mx-2 text-2xl md:text-4xl lg:text-6xl rounded-md mb-2">{months}</p>
+            <p className="text-white text-xs lg:text-xl">Month(s)</p>
           </motion.div>
           <motion.div 
             className=" flex flex-col justify-center items-center"
@@ -63,8 +63,8 @@ const TestCountdownHere = () => {
                 delay: "2.2"
               }}
           >
-            <p className="text-black p-3 md:p-4 lg:p-6 mx-2 lg:mx-2 text-2xl md:text-4xl lg:text-6xl rounded-md mb-2">{days}</p>
-            <p className="text-black text-xs lg:text-xl">Day(s)</p>
+            <p className="text-white p-3 md:p-4 lg:p-6 mx-2 lg:mx-2 text-2xl md:text-4xl lg:text-6xl rounded-md mb-2">{days}</p>
+            <p className="text-white text-xs lg:text-xl">Day(s)</p>
           </motion.div>
           <motion.div 
             className=" flex flex-col justify-center items-center"
@@ -75,8 +75,8 @@ const TestCountdownHere = () => {
                 delay: "2.4"
               }}
           >
-            <p className="text-black p-3 md:p-4 lg:p-6 mx-2 lg:mx-2 text-2xl md:text-4xl lg:text-6xl rounded-md mb-2">{hours}</p>
-            <p className="text-black text-xs lg:text-xl">Hour(s)</p>
+            <p className="text-white p-3 md:p-4 lg:p-6 mx-2 lg:mx-2 text-2xl md:text-4xl lg:text-6xl rounded-md mb-2">{hours}</p>
+            <p className="text-white text-xs lg:text-xl">Hour(s)</p>
           </motion.div>
           <motion.div 
             className=" flex flex-col justify-center items-center"
@@ -87,8 +87,8 @@ const TestCountdownHere = () => {
                 delay: "2.6"
               }}
           >
-            <p className="text-black p-3 md:p-4 lg:p-6 mx-2 lg:mx-2 text-2xl md:text-4xl lg:text-6xl rounded-md mb-2">{minutes}</p>
-            <p className="text-black text-xs lg:text-xl">Minute(s)</p>
+            <p className="text-white p-3 md:p-4 lg:p-6 mx-2 lg:mx-2 text-2xl md:text-4xl lg:text-6xl rounded-md mb-2">{minutes}</p>
+            <p className="text-white text-xs lg:text-xl">Minute(s)</p>
           </motion.div>
           <motion.div 
             className=" flex flex-col justify-center items-center"
@@ -99,8 +99,8 @@ const TestCountdownHere = () => {
                 delay: "2.8"
               }}
           >
-            <p className="text-black p-3 md:p-4 lg:p-6 mx-2 lg:mx-2 text-2xl md:text-4xl lg:text-6xl rounded-md mb-2">{seconds}</p>
-            <p className="text-black text-xs lg:text-xl">Second(s)</p>
+            <p className="text-white p-3 md:p-4 lg:p-6 mx-2 lg:mx-2 text-2xl md:text-4xl lg:text-6xl rounded-md mb-2">{seconds}</p>
+            <p className="text-white text-xs lg:text-xl">Second(s)</p>
           </motion.div>
         </div>
       </div>

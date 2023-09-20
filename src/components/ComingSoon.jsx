@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { motion as m } from "framer-motion";
 
 const ComingSoon = () => {
   return (
@@ -42,7 +42,7 @@ const ComingSoon = () => {
         */}
         
         <div className="">
-            <motion.h1 
+            <m.h1 
                 className="text-xl md:text-4xl lg:text-6xl font-bold uppercase"
                 initial={{x: -2000, opacity: 0}}
                 animate={{x: 0, opacity: 1}}
@@ -51,7 +51,7 @@ const ComingSoon = () => {
                     delay: "1"
                 }}>
                 Coming Soon
-            </motion.h1>
+            </m.h1>
         </div>
     </div>
     
